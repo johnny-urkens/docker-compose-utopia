@@ -1,7 +1,7 @@
 version: '3.4'
 
 services:
-  test-backend:
+  project-backend:
     image: r0790759/project-backend
 #     build:
 #       context: .
