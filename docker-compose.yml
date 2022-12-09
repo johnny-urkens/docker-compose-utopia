@@ -24,4 +24,4 @@ services:
 #       - "./log/:/var/opt/mssql/log/"
 #       - "./secrets/:/var/opt/mssql/secrets/"
   volumes:
-   ./data/:
+   data:
