@@ -21,3 +21,5 @@ services:
     environment:
         SA_PASSWORD: "S3cur3P@ssW0rd!"
         ACCEPT_EULA: "Y"
+  volumes:
+   mssql_data_container:
