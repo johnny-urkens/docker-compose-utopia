@@ -21,5 +21,5 @@ services:
         ACCEPT_EULA: "Y"
     volumes:
       - sqldata:/var/opt/mssql
-#   volumes:
-#     sqldata:
+volumes:
+  sqldata:
