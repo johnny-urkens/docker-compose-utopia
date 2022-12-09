@@ -19,6 +19,6 @@ services:
         SA_PASSWORD: "S3cur3P@ssW0rd!"
         ACCEPT_EULA: "Y"
     volumes:
-      - mssql_data_container: /var/lib/mssql
+      - db1_data_container: /var/lib/mssql
   volumes:
-   mssql_data_container:
+   db1_data_container:
