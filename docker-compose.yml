@@ -15,11 +15,11 @@ services:
     image: "mcr.microsoft.com/mssql/server:2022-latest"
     ports:
       - "1433:1433"
-    volumes:
-      - mssql_data_container: /var/opt/mssql
+#     volumes:
+#       - mssql_data_container: /var/opt/mssql
 
     environment:
         SA_PASSWORD: "S3cur3P@ssW0rd!"
         ACCEPT_EULA: "Y"
-  volumes:
-   mssql_data_container:
+#   volumes:
+#    mssql_data_container:
